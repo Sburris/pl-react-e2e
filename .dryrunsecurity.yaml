@@ -1,0 +1,13 @@
+sensitiveCodepaths:
+  # Files only allowed authors can modify
+  - '.dryrunsecurity.yaml'
+  # - 'app.js'
+  # - 'controllers/**/*.js'
+allowedAuthors:
+  usernames:
+    # GitHub username
+    - 'sburris'
+notificationList:
+  # GitHub username or team name
+  # - '@DryRunSec/security'
+  - '@sburris'
